@@ -1,5 +1,5 @@
-Missing number in array
-Brute Force sol : -
+// Missing number in array
+// Brute Force sol : -
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -21,11 +21,11 @@ class Solution{
     }
 };
 
-Time Complexity: O(n log n)
-Space Complexity: O(1)
-------------------------------------------------------
+// Time Complexity: O(n log n)
+// Space Complexity: O(1)
+// ------------------------------------------------------
 
-little optimize sol :-
+// little optimize sol :-
 class Solution{
   public:
     int missingNumber(vector<int>& array, int n) {
@@ -42,5 +42,5 @@ class Solution{
     }
 };
 
-Time Complexity: O(n)
-Space Complexity: O(1)
+// Time Complexity: O(n)
+// Space Complexity: O(1)
